@@ -1,9 +1,13 @@
-.App {
-  text-align: center;
+section {
+  display: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
+.Main {
+  text-align: center;
+  margin-top: 15em;
+}
+s .Main-section {
+  background-color: #0a57f1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,12 +26,65 @@
   opacity: 0.8;
 }
 
-.App-link {
-  color: #61dafb;
+.Section-link {
+  color: #0a3b49;
 }
 p {
-  color: white;
-  font: 900 35vmin/50vh cookie, cursive;
+  color: rgb(247, 137, 137);
+  font: 900 15vmin/20vh cookie;
   text-align: center;
   mix-blend-mode: difference;
+  padding-top: 100 px;
 }
+
+#portfolio-link {
+  margin-left: 1%;
+  margin-right: 1%;
+  /*   padding: 100px; */
+  justify-content: center;
+  color: #347ea0;
+}
+.fa-3x {
+  font-size: 2.2em;
+}
+.fab:hover {
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+}
+.fas:hover {
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  margin: 0.5rem;
+  text-transform: uppercase;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  color: white;
+  font-weight: 900;
+  border: none;
+  transition: 0.5s;
+  background: none;
+}
+
+/* &.bg-primary{
+    @include cosmosButtonBorder($bPrimary); */
+/* }
+@media screen and (max-width: 716px) {
+  #profile-link {
+    margin-left: 3%;
+    margin-right: 3%;
+    /*   padding: 100px; */
+/* justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 716px) {
+  #profile-link {
+    margin-left: 2%;
+    margin-right: 2%;
+    /*   padding: 100px; */
+/* justify-content: center;
+  }
+/* } */
